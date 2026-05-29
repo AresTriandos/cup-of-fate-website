@@ -10,34 +10,8 @@ const nextConfig: NextConfig = {
     imageSizes: [16, 32, 48, 64, 96, 128, 256, 384],
   },
   
-  // Headers for performance
-  async headers() {
-    return [
-      {
-        source: '/:path*',
-        headers: [
-          {
-            key: 'Cache-Control',
-            value: 'public, max-age=31536000, immutable',
-          },
-        ],
-      },
-    ];
-  },
-
-  // Redirects
-  async redirects() {
-    return [];
-  },
-
-  // Rewrites
-  async rewrites() {
-    return {
-      beforeFiles: [],
-      afterFiles: [],
-      fallback: [],
-    };
-  },
+  // Note: headers, redirects, and rewrites don't work with static export
+  // Use Amplify's routing configuration instead if needed
 };
 
 export default nextConfig;
