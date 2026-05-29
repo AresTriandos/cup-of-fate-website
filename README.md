@@ -206,3 +206,4 @@ For issues or questions, contact: hello@cupoffate.com
 ---
 
 Built with ❤️ using Next.js and Tailwind CSS ☕✨
+# Rebuild trigger
