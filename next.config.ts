@@ -1,6 +1,8 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
+  // Export as static HTML for Amplify
+  output: 'export',
   // Image optimization
   images: {
     formats: ['image/avif', 'image/webp'],
