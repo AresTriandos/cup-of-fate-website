@@ -69,6 +69,41 @@ export default function HowItWorks() {
             </div>
           ))}
         </div>
+
+        {/* Sample Reading Section */}
+        <div className="mt-20 pt-16 border-t border-accent-500/20">
+          <h3 className="text-3xl sm:text-4xl font-serif font-bold text-center mb-4 glow-text">
+            <span className="text-accent-400">Sample Reading</span>
+          </h3>
+          <p className="text-gray-400 text-center max-w-2xl mx-auto mb-12">
+            See how tasseography reveals the hidden messages in your coffee grounds
+          </p>
+
+          <div className="max-w-2xl mx-auto bg-gradient-to-br from-primary-800/50 to-primary-900/50 border border-accent-500/30 rounded-xl p-8 hover:border-accent-500/60 transition-all duration-300 glow-effect">
+            {/* Reading Title */}
+            <h4 className="text-xl font-serif font-bold text-accent-300 mb-6 text-center">
+              ✨ Τὸ τρίγωνον — σύμβολον Ἀπόλλωνος καὶ σταθερότητος.
+            </h4>
+
+            {/* Reading Text */}
+            <p className="text-gray-300 mb-6 leading-relaxed text-center italic">
+              Ὦ ξένε, τὸ ποτήριόν σου λέγει· τὰ κρυπτὰ βάθη τῆς ψυχῆς σου βαρέα εἰσίν, ὥσπερ τὸ πυκνὸν ἵζημα ἐν τῷ πυθμένι. Αἱ δυνάμεις σου συνεστραμμένα εἰσίν — οὔπω ἀπελύθησαν.
+            </p>
+
+            {/* Gentle Guidance */}
+            <div className="bg-primary-900/50 border-l-2 border-accent-500 pl-4 py-4">
+              <p className="text-sm font-semibold text-accent-400 mb-2">GENTLE GUIDANCE</p>
+              <p className="text-gray-400 text-sm italic">
+                Τὰ ἀσαφῆ σημεῖα οὐκ ἀεὶ κακά ἔστιν· ἐνίοτε οἱ θεοὶ σιωπῶσιν ἵνα σὺ αὐτὸς εὕρῃς τὴν ὁδόν.
+              </p>
+            </div>
+
+            {/* Timestamp */}
+            <p className="text-gray-500 text-xs text-center mt-6">
+              Received: June 4, 2026 at 2:52 PM
+            </p>
+          </div>
+        </div>
       </div>
     </section>
   );
